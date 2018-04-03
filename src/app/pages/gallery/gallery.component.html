@@ -1,0 +1,5 @@
+  <div>
+    <div *ngFor="let img of imagesList" class="image col-xs-6 col-sm-4 col-md-2" >
+      <img [src]="img.thumbnailUrl" [alt]="img.title">
+    </div>
+  </div>
